@@ -1,0 +1,75 @@
+
+#aboutMe{
+	background-image: url(../img/about-me.jpg);
+	min-height: 369px;
+	background-size: cover;
+    background-repeat: no-repeat;
+
+    .content-about{
+    	flex-flow: column;
+		display: flex;
+		justify-content: flex-end;
+
+		.holder{
+			padding: 20px 66px 0 0;
+			width: 63%;
+			align-self: flex-end;
+
+		}
+
+		h1,h2{
+			margin: 0;
+			font-family: $raleway;
+			font-size: 2em;
+			color:white;
+		}
+
+		p{
+			font-family: $opensans;
+			color:white;
+		}
+
+		a.action{
+			display: inline-block;
+			background-color: $purpleMaster;
+			border-radius: 20px;
+			width: 120px;
+			text-align: center;
+			font-family: $opensans;
+			color:white;
+			text-decoration: none;
+			margin: 0 8px;
+		}
+    }
+}
+
+#myJobs{
+	.container{
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	h2{
+		font-family: $raleway;
+		font-size: 1.8em;
+		color:black;
+		text-transform: uppercase;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	span{
+		text-align: center;
+		font-size: 12px;
+		display: block;
+		font-family: $opensans;
+	}
+
+	figure{
+		margin:5px;
+	}
+
+	.jobs-info{
+		margin:10px 0;
+		display: flex;
+	}
+}

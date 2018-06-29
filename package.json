@@ -1,0 +1,16 @@
+{
+    "name": "eveliseportfolio",
+    "displayName": "EveliseV",
+    "version": "1.0.0",
+    "description": "Project from Evelise portfolio",
+    "main": "js/config.js",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/evelisee/evelisee.github.io.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Evelise Vazquez",
+    "license": "BSD-3-Clause"
+}
