@@ -15,7 +15,7 @@ nav {
 	min-height: 45px;
 
 	& > .navigation{
-		max-width: 80%;
+		max-width: 60%;
 		padding-left: 0;
 		padding-top: 8px;
 		color:white;
@@ -32,8 +32,37 @@ nav {
 	}
 }
 
-.gap-3{
-	width: 33.33%;
+.container{
+	width: 80%;
+	margin: 0 auto;
+
+	h2{
+		font-family: $raleway;
+		font-size: 1.8em;
+		color:black;
+		text-transform: uppercase;
+		margin-bottom: 0;
+		text-align: center;
+	}
+	span{
+		text-align: center;
+		font-size: 12px;
+		display: block;
+		margin-bottom:50px;
+		font-family: $opensans;
+	}
 }
 
+
 @import 'about.scss';
+
+@media (min-width: 1024px){
+	#aboutMe{
+		background-color: #423085;
+	    background-size: contain;
+
+	    .holder{
+	    	width: 68%!important;
+	    }
+	}
+}

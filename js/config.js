@@ -20,7 +20,7 @@ angular.module('app', ['ui.router'])
             views: {
                 'content@menu': {
                     templateUrl: '/templates/home.html',
-                    // controller: 'loginController'
+                    controller: 'homeController'
                 }
             }
         })
