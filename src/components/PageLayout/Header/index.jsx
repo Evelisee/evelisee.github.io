@@ -32,23 +32,13 @@ export default () => {
         <div className={style.backgroundDiv}>
           <ul className={style.nav}>
             <li className={style.navItem}>
-              <Link to="/" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                About
-              </Link>
-            </li>
-            <li className={style.navItem}>
-              <Link to="/blog" onClick={toggleMenu} activeClassName={style.anchorActive}>
+              <Link to="" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Blog
               </Link>
             </li>
             <li className={style.navItem}>
               <Link to="/tags" onClick={toggleMenu} activeClassName={style.anchorActive}>
                 Tags
-              </Link>
-            </li>
-            <li className={style.navItem}>
-              <Link to="/resume" onClick={toggleMenu} activeClassName={style.anchorActive}>
-                Resume
               </Link>
             </li>
           </ul>
